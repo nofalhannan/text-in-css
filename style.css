@@ -1,0 +1,205 @@
+/* font family */
+/* body {
+    font-family: cursive;}
+
+    h1, h2 {
+        font-family: Arial, Verdana, sans-serif;}
+
+        .credits {
+            font-family: "Courier New", Courier,
+            monospace;} */
+
+ /* Font size */
+ /* pixels */
+ /* p { 
+    font-size: 50px;
+ } */
+
+ /* percentage */
+ /* p{
+    font-size: 200%;
+ } */
+
+ /* default value */
+ /* p{
+    font-size: x-large;
+ } */
+
+ /* EM */
+ /* p{
+    font-size: 8em;
+ } */
+
+ /* font-face */
+
+/* @font-face {
+    font-family: 'test';
+    src: url('./Assests/Kdam_Thmor_Pro/KdamThmorPro-Regular.ttf');
+}
+
+p{
+    font-family:Test;
+} */
+
+/* font-weight */
+/* p{
+    font-weight:900;
+} */
+
+/* font-style */
+/* h1{
+    font-style: italic;
+} */
+
+/* using id selector and compairing 3 styles */
+/* #bold{
+    font-style: normal;
+}
+#normal{
+    font-style: oblique;
+} */
+
+/* Font transforam */
+/* upper-case */
+/* h1{
+    text-transform: uppercase;
+} */
+/* capitalize */
+/* h1{
+    text-transform: capitalize;
+} */
+/* lower-case */
+/* h2{
+    text-transform: lowercase;
+} */
+/* h3{
+    text-transform: capitalize;
+} */
+
+/* text decoration */
+/* #none{
+    text-decoration: none;
+}
+#Underline{
+    text-decoration: underline;
+}
+#overline{
+text-decoration: overline
+}
+#linethrough{
+    text-decoration: line-through;
+    }
+#blink{
+text-decoration: dotted;
+} */
+
+/* line-height */
+/* p{
+    line-height: 60px;
+} */
+
+/* letter& word spacing */
+/* word spacing */
+/* h1{
+    word-spacing:20px;
+} */
+/* Letter spacing */
+/* h1{
+    letter-spacing: 20px;
+} */
+
+/* text allignment */
+/* h1{
+    text-align: center;
+}
+p{
+    text-align: justify;
+} */
+
+/*vertical alignment */
+/* img{
+    vertical-align:middle;
+} */
+
+/* text indent */
+/* p{
+    text-indent: 40px;
+} */
+
+/* Text shadow */
+/* p{
+    background-color: wheat;
+    color: red;
+    text-shadow: 10px 5px 1px green;
+} */
+
+/* frist letter or line */
+/* p::first-letter{
+    color: red;
+    background-color: black;
+}
+p::first-line{
+    color: green;
+} */
+
+/* styling links */
+/* a:link{
+    color: red;
+}
+a:visited{
+    color: green;
+} */
+
+/* Responding to users */
+
+/* input.btn:hover{
+    background-color: red;
+}
+
+input.btn:active{
+    background-color: blue;
+}
+input.btn:focus{
+background-color: green;
+}
+
+input#f:focus{
+    background-color: greenyellow;
+}
+input#f:hover{
+    background-color: blue;
+    text-decoration: underline;
+} */
+
+/* attribute selector */
+/* Existence attribute */
+/* h1[id] { 
+    color: red;
+} */
+
+/* Equality attribute */
+/* h1[id="hello"]{
+    color: red;
+} */
+
+/* Space attribute */
+/* h1[id~="word"]{
+    color: blue;
+} */
+
+/* Prifix attribute */
+/* h1[id^="h"]{
+    color: red;
+} */
+
+/* Substring attribute */
+/* h1[id*="o"]{
+    color: blue;
+} */
+
+/* Suffix attribute */
+h1[id$="e"]{
+    color: brown;
+}
+
+
